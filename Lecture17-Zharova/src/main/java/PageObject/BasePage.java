@@ -1,7 +1,5 @@
 package PageObject;
-
 import org.openqa.selenium.WebDriver;
-
 import java.util.concurrent.TimeUnit;
 
 public abstract class BasePage {
@@ -11,4 +9,5 @@ public abstract class BasePage {
         this.driver = driver;
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
+
 }

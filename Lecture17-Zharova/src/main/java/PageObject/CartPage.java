@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.asserts.SoftAssert;
 
+
 public class CartPage extends BasePage {
 
     public CartPage(WebDriver driver) {
