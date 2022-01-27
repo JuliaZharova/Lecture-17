@@ -10,11 +10,11 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class Listener implements ITestListener {
-
+/*
     @Override
     public void onTestFailure(ITestResult result) {
         CheckLoginPopup checkLoginPopup = (CheckLoginPopup) result.getInstance();
-      TakesScreenshot src = ((TakesScreenshot)CheckLoginPopup.driver);
+     // TakesScreenshot src = ((TakesScreenshot)CheckLoginPopup.driver);
       byte[] screenshot = src.getScreenshotAs(OutputType.BYTES);
 
         String fileName = "screenshot.png";
@@ -23,5 +23,5 @@ public class Listener implements ITestListener {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
+    }*/
 }
