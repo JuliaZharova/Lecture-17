@@ -1,5 +1,6 @@
 package tests;
 
+import Listener.Listener;
 import PageObject.CartPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,7 +10,7 @@ import org.testng.annotations.Test;
 
 import static PageObject.BasePage.driver;
 
-@Listeners(PageObject.Listener.class)
+@Listeners(Listener.class)
 public class CheckCartPage{
 
     @Test(groups = {"cart"})
