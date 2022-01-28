@@ -17,7 +17,7 @@ public class CartPage extends BasePage {
     @FindBy(xpath = "//h1[@class=\"product__title\"]")
     private WebElement productName;
 
-    @FindBy(xpath = "//button[@class=\"buy-button button button_with_icon button_color_green button_size_large ng-star-inserted\"]")
+    @FindBy(xpath = "//button[@class=\"buy-button button button--with-icon button--green button--medium ng-star-inserted\"]")
     private WebElement buyButton;
 
     @FindBy(xpath = "//div[@class=\"modal__holder modal__holder_show_animation modal__holder--large\"]")
